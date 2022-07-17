@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    prefer_final_locals: true
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
